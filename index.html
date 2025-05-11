@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batista Central do Carpina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="MB.png" type="image/png"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+</head>
+
+<script>
+  function scrollCarousel(direction) {
+    const carousel = document.getElementById('carousel');
+    const cardWidth = carousel.querySelector('.carousel-card').offsetWidth + 20; 
+    carousel.scrollBy({
+      left: direction * cardWidth,
+      behavior: 'smooth'
+    });
+  }
+</script>
+
+<body>
+
+    <header class="container">
+        <img src="MB.png" alt="Logo da IEBCC" class="logo">
+        <nav class="nav-wrapper">
+          <ul class="nav-list">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#ministerios">Ministérios</a></li>
+            <li><a href="#album">Álbum</a></li>
+            <li><a href="#dizimos">Dízimos</a></li>
+          </ul>
+        </nav>
+      </header>
+
+<section class="hero" id="inicio">
+    <div class="overlay">
+      <div class="hero-text">
+        <h1>Bem-vindo à</h1>
+        <br>
+        <h1>Igreja Batista Central do Carpina</h1>
+        <br>
+        <br>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="sobre">
+    <div class="about-content">
+      <div class="about-image-container">
+        <h2 class="about-title">Sobre Nós</h2>
+        <img src="FOFO.jpg" alt="Sobre a Igreja" class="about-image">
+      </div>
+      <div class="about-text">
+        <p>
+          Nossa igreja nasceu em 1930, em meio a tempos desafiadores, mas com um
+          firme propósito: levar a mensagem do Evangelho e transformar vidas através
+          do amor de Cristo. Tudo começou de forma simples, com reuniões em casas
+          e encontros movidos por oração, fé e desejo sincero de ver Deus agindo na
+          comunidade.<br><br>
+  
+          Com o passar dos anos, aquela pequena chama se tornou um farol de
+          esperança. A igreja cresceu, se estruturou e se tornou referência espiritual e
+          social, sempre com os olhos voltados para a missão: alcançar, restaurar e
+          discipular pessoas.<br><br>
+  
+          Hoje, com mais de nove décadas de história, seguimos firmes no mesmo
+          propósito. Nossa igreja é um espaço de acolhimento, ensino e ação.
+          Desenvolvemos projetos que impactam vidas de forma prática, como o
+          Projeto Jesus Transforma, que atua na reabilitação de viciados, a Escola de
+          Música, que forma e inspira novos talentos, além de encontros regulares
+          como cultos, discipulados, eventos de casais, cultos jovens, visitas
+          missionárias e ações sociais com doações de cestas básicas.<br><br>
+  
+          Somos uma igreja viva, atuante e comprometida com o Reino de Deus. Nossa
+          história é marcada por milagres, superações e milhares de vidas
+          transformadas. E temos certeza de uma coisa: o melhor ainda está por vir.
+        </p>
+      </div>
+    </div>
+  </section>
+
+<section class="programming" id="programacao">
+    <h2>Programação da semana</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="FOTOSEXTRAS/IMG_6791.JPG" alt="Culto de Adoração">
+            <h3>Domingo</h3><br>
+            <p>09:00 - Culto matinal</p>
+            <p>10:30 - Escola bíblica</p>
+            <p>18:00 - Culto de noturno</p>
+        </div>
+        <div class="card">
+            <img src="FOTOSEXTRAS/IMG_6809.JPG" alt="Culto de Oração">
+            <h3>Quarta-feira</h3> 
+            <br>
+            <p>19:00 - Culto de Oração e Estudo Bíblico</p>
+        </div>
+        <div class="card">
+            <img src="FOTOBOA.jpg" alt="Encontro de Jovens">
+            <h3>Sábado</h3>
+            <br>
+            <p> 13:00 - Escola de música</p>
+        </div>
+    </div>
+</section>
+
+<section class="projects" id="projetos">
+  <h2>Nossos projetos</h2>
+  <div class="carousel-wrapper">
+    <div class="cards">
+      <div class="card">
+        <img src="FOTOSALBUM/FOTO3.jpg" alt="Projeto Jesus Transforma">
+        <h3>Projeto 'Jesus Transforma'</h3>
+        <p>O projeto 'Jesus Transforma' é uma iniciativa da nossa igreja voltada para a reabilitação e restauração de pessoas que lutam contra a dependência química e outros vícios. Nosso objetivo é oferecer apoio espiritual, emocional e social, ajudando cada participante a reconstruir sua vida com dignidade e propósito.</p>
+      </div>
+
+      <div class="card">
+        <img src="FOTOSALBUM/FOTO2.jpg" alt="Escola de Música">
+        <h3>Escola de Música</h3>
+        <p>A escola de música da nossa igreja é um projeto aberto a toda a comunidade, sem distinção de religião. Nosso propósito é ensinar e desenvolver talentos musicais em crianças, jovens e adultos, oferecendo aulas de instrumentos e canto. Além do aprendizado técnico, buscamos promover valores como disciplina, dedicação e trabalho em equipe.</p>
+      </div>
+
+      <div class="card">
+        <img src="FOTOSALBUM/FOTO5.jpg" alt="Viagem Missionária">
+        <h3>Viagem Missionária</h3>
+        <p>A Viagem Missionária é uma iniciativa anual da nossa igreja que leva equipes de voluntários ao sertão nordestino, com o propósito de apoiar comunidades locais por meio da ação social e do evangelismo. Durante essa jornada, unimos forças para construir ou reformar igrejas, fortalecendo a estrutura física e espiritual dos irmãos que vivem em regiões com poucos recursos.</p>
+      </div>
+
+      <div class="card">
+        <img src="FOTOSALBUM/FOTO4.jpg" alt="Natal Diferente">
+        <h3>Natal Diferente</h3>
+        <p>O Natal Diferente é uma grande mobilização social promovida pela nossa igreja no fim do ano, com o propósito de compartilhar o amor de Deus de forma prática e transformadora. Nessa ação, levamos cuidado, alegria e dignidade a comunidades em situação de vulnerabilidade, criando um ambiente de festa e esperança.</p>
+      </div>
+
+      <div class="card">
+        <img src="FOTOSALBUM/FOTO4.jpg" alt="Embaixadores do Rei">
+        <h3>Embaixadores do Rei</h3>
+        <p>Embaixadores do Rei é uma organização batista cujas atividades visam os desenvolvimentos físicos, morais e espirituais dos meninos de 9 a 17 anos. É uma organização missionária que procura conduzir os seus membros na participação ativa de Missões.</p>
+      </div>
+
+      <div class="card">
+        <img src="FOTOSALBUM/FOTO4.jpg" alt="Mulheres Cristãs em Missão">
+        <h3>Mulheres Cristãs em Missão</h3>
+        <p>Mulher Cristã em Missão é formada por quatro grupos específicos. A proposta dessa estrutura é permitir que as mulheres se reúnam em grupos cujos interesses sejam comuns.</p>
+      </div>
+
+      <div class="card">
+        <img src="FOTOSALBUM/FOTO4.jpg" alt="Mensageiras do Rei">
+        <h3>Mensageiras do Rei</h3>
+        <p>Por ter um caráter missionário, primeiramente, a organização se propõe a oferecer condições para que suas sócias cresçam no conhecimento de missões, orem por missões, contribuam para missões e assumam sua responsabilidade de testemunhar de Jesus Cristo. Além disso, oferece educação cristã, treinamento e oportunidades de serviço social cristão, tendo em vista o desenvolvimento da personalidade total da menina e sua integração nas atividades da igreja e da denominação.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="ministerios">
+    <h2>Nossos Ministérios</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="FOTOSALBUM/cantando.png" alt="Louvor">
+            <h3>Louvor</h3>
+            <p>Adoração que toca os céus e transforma corações.</p>
+        </div>
+        <div class="card">
+            <img src="FOFO.jpg" alt="Jovens">
+            <h3>Jovens</h3>
+            <p>Um espaço para jovens viverem o evangelho com propósito.</p>
+        </div>
+        <div class="card">
+            <img src="FOTOSALBUM/FOTO4.jpg" alt="Infantil">
+            <h3>Infantil</h3>
+            <p>Evangelizando com amor desde a infância.</p>
+        </div>
+    </div>
+</section>
+
+<section class="album" id="album">
+  <h2> Álbuns de fotos</h2>
+  <div class="carousel-container">
+    <button class="carousel-button left" onclick="scrollCarousel(-1)">&#10094;</button>
+    <div class="carousel" id="carousel">
+      <div class="carousel-card"><img src="FOTOSEXTRAS/IMG_6512.JPG" alt="Foto 1"></div>
+      <div class="carousel-card"><img src="FOTOSEXTRAS/IMG_6791.JPG" alt="Foto 2"></div>
+      <div class="carousel-card"><img src="FOTOSEXTRAS/IMG_6809.JPG" alt="Foto 3"></div>
+      <div class="carousel-card"><img src="FOTOSEXTRAS/IMG_6788.JPG" alt="Foto 4"></div>
+      <div class="carousel-card"><img src="FOTOSALBUM/FOTO2.jpg" alt="Foto 5"></div>
+      <div class="carousel-card"><img src="FOTOSALBUM/FOTO3.jpg" alt="Foto 5"></div>
+    </div>
+    <button class="carousel-button right" onclick="scrollCarousel(1)">&#10095;</button>
+  </div>
+
+  </div>
+  <a href="album-completo.html" class="ver-mais-btn">Álbum completo</a>
+</section>
+
+<section class="ofertas" id="dizimos">
+  <div class="overlay">
+    <div class="conteudo">
+      <h2>Dízimos e Ofertas</h2>
+      <p>Seja um abençoador da obra de Deus. Contribua com generosidade.</p>
+      <img src="qrcode.png" alt="QR Code da conta bancária" class="qr-code">
+      <div class="dados-bancarios">
+        <p><strong>Banco:</strong> 001 - Banco do Brasil</p>
+        <p><strong>Agência:</strong> 1234-5</p>
+        <p><strong>Conta:</strong> 67890-1</p>
+        <p><strong>PIX:</strong> igrejaexemplo@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <p>© 2025 IEBCC - Todos os direitos reservados</p>
+        <p>Telefone: (81) 3621-1973</p>
+        <p> Av. José Otávio, 539 - Centro, Carpina - PE, 55810-000</p>
+    </div>
+    <br>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/igrejabatistacentral_/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+</footer>
+
+</body>
+</html>
